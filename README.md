@@ -1,3 +1,4 @@
+![Flip Flop 180 Logo](./img/FlipFlop180-blue-400.svg)
 # FlipFlop180 - A Coding Challenge
 
 Ready to get turned around? Check to see what your message says in the reverse! Who knows, maybe you'll be lucky and stumble onto a secret message.
@@ -10,7 +11,6 @@ Ready to get turned around? Check to see what your message says in the reverse! 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -43,17 +43,9 @@ Mobile Web App Screenshot:
 
 ### What I learned
 
-1. 
+1. A for loop can be used to loop through a string as if it's an array.
 
-    ```js
-
-    ```
-
-
-
-### Continued development
-
-- 
+2. Use textContent instead of innerHTML on an element so that other html or code can't be injected into the page.
 
 ### Useful resources
 
