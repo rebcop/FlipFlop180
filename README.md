@@ -19,11 +19,11 @@ Ready to get turned around? Check to see what your message says in the reverse! 
 ### Screenshot
 
 Desktop Web App Screenshot:
-![Desktop Screenshot](./img/....png)
+![Desktop Screenshot](./img/desktop-screenshot.png)
 
 Mobile Web App Screenshot:
 <br/>
-<img src="./img/..." width="25%" height="auto">
+<img src="./img/iphone-screenshot.JPG" width="25%" height="auto">
 
 ### Links
 
@@ -45,7 +45,7 @@ Mobile Web App Screenshot:
 
 1. A for loop can be used to loop through a string as if it's an array.
 
-2. Use textContent instead of innerHTML on an element so that other html or code can't be injected into the page.
+2. Everything retrieved from the HTML comes in as a string even if it has a type="number" on the element.
 
 ### Useful resources
 
