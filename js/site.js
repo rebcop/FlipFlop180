@@ -4,15 +4,15 @@ function getValues() {
     // get the text input from the page
     let message = document.getElementById('userInput').value;
 
-    // validate the input: make sure the input is not empty,could do at least two char
+    // validate the input: make sure the input is not empty
     if (message.length == 0 ) {
 
+        // Send error message to user alerting to enter some characters
         swal.fire({
             icon: 'error',
             backdrop: false,
             text: 'Please enter a string to reverse'
         });
-
 
     } else {
 
@@ -21,20 +21,15 @@ function getValues() {
 
         // give the reversed message to displayMessage to show on the page
         displayMessage(revMsg);
-
     }
-
 }
 
 // reverse the string
-
-// IMPORTANT TRICK: DID YOU KNOW STRING IS AN ARRAY OF CHARACTERS
 function reverseMessage(input) { // input = 'hello'
 
-    output = '';
+    let output = '';
 
     for (let i = input.length - 1; i >= 0; i--) {
-
         output += input[i];
     }
 
@@ -45,7 +40,6 @@ function reverseMessage(input) { // input = 'hello'
 function displayMessage(message) {
 
     document.getElementById('msg').textContent = `Your message reversed is: ${message}`;
-
     document.getElementById('alert').classList.remove('invisible');
 
 }
