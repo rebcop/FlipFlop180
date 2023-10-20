@@ -11,6 +11,7 @@ Ready to get turned around? Check to see what your message says in the reverse! 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Possible Improvements](#possible-improvements)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
