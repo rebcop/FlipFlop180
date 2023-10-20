@@ -47,6 +47,12 @@ Mobile Web App Screenshot:
 
 2. Everything retrieved from the HTML comes in as a string even if it has a type="number" on the element.
 
+### Possible Improvements
+
+1. Add error if user enters only spaces.
+   
+3. Add some kind of decoration or animation when user enters word(s) from the dictionary that are also words from the dictionary backwards
+
 ### Useful resources
 
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
